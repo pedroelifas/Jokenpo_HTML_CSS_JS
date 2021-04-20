@@ -1,0 +1,103 @@
+body
+{
+	background-color: #b52c38;
+	padding: 0;
+	top: 0;
+	bottom: 0;
+}
+
+#container
+{
+	width: 500px;
+	margin: 0 auto 0 auto;
+}
+
+.titulo
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.jogada
+{
+	display: flex;
+	width: auto;
+	height: 250px;
+	justify-content: center;
+}
+
+.jogada img
+{
+	width: 200px;
+	height: 200px;
+	margin: 0 3% 0 3%;
+}
+
+.ganhador
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+}
+
+.cartas
+{
+	display: flex;
+	height: 150px;
+	width: auto;
+	justify-content: center;
+	align-items: center;
+}
+.cartas img
+{
+	cursor: pointer;
+}
+
+.placar
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+}
+#placarvoce
+{
+	color: #cfcfcf;
+}
+#placarvoce1
+{
+	margin-left: 2%;
+	color: #cfcfcf;
+}
+#placarbarra
+{
+	color: white;
+	margin: 0 4% 0 4%;
+}
+#placargoku
+{
+	color: black;
+}
+#placargoku
+{
+	margin-right: 2%;
+	color: black;
+}
+.reiniciar
+{
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.reiniciar h3
+{
+	color: white;
+	cursor: pointer;
+}
+.reiniciar h3:hover
+{
+	color: #373636;
+}
